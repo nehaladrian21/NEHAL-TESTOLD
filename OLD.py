@@ -485,4 +485,3 @@ def login_2(uid):
     """
     Login attempt method 2.
     """
-    sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m

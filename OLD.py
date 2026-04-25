@@ -19,7 +19,7 @@ import os, sys
 
 # Tumhara Facebook group link
 # Valid keys (inbox par available hogi)
-approved_keys = ["NEHAL-ADRIAN"]
+approved_keys = ["NEHAL-ADRIAN hfjgbvcdhbvvd@@-2025"]
 
 def first_step():
     os.system("clear")

